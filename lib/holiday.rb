@@ -42,9 +42,10 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       end
     end
 end
-binding.pry
+
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
+  binding.pry
   # remember to return the updated hash
 # holiday_hash.each do |k,v|
 #   if k == season
