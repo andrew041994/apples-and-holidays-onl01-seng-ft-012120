@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
           if k.include?("_")
             puts "    #{k.split("_").join(" ").capitalize}: #{v.join(", ")}"
           else
-            puts "    #{k.capitalize}: #{v.join(", ")}"
+            puts "  #{k.capitalize}: #{v.join(", ")}"
           end
         end
       end
