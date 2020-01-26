@@ -89,8 +89,8 @@ result = []
         data.each do |k,v|
           if v.include?("BBQ")
             result << k
-          end 
+          end
         end
-      end  
+      end
      result
 end
